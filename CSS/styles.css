@@ -1,0 +1,228 @@
+body {
+    background-color: rgb(55, 111, 211);
+    height: 100%;
+    animation: animate 20s linear infinite;
+}
+@keyframes animate{
+    0%{
+        background-color: yellow
+    }
+     20%{
+        background-color: orange
+    }
+     40%{
+        background-color: red
+    }
+     60%{
+        background-color: blue
+    }
+     80%{
+        background-color: green
+    }
+     100%{
+        background-color: purple
+    }
+}
+.main-header {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    justify-content: center;
+    font-size: x-large;
+    font-weight: 1000;
+}
+.main-image {margin-left: auto;
+    margin-right: auto;
+    /*color: black;
+    display: block;
+    
+    margin-top: 45px;
+    text-align: center;
+    padding: auto;*/
+    /* 1. Ensures the image shrinks to fit the container */ 
+  max-width: 100%; 
+  /* 2. Prevents vertical distortion when the width changes */ 
+  height: auto; /*
+ 3. (Optional) For images that need to maintain strict aspect ratio within a fixed box */ 
+  display: block; 
+}
+.my-row-class{
+    background-color: white;
+    border: 3px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.main-h1{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 100px;
+    font-weight: 1000; 
+}
+.main-text {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: x-large;
+    font-weight: 1000;    
+}
+.main-row {
+    border-style: solid;
+    color: black;
+    border-color: black;
+    background-color: white;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1000;
+}
+.container{
+   background-color: rgba(255, 255, 255, 0.75);
+   
+}
+.main-release-header {
+    text-align: center;
+    font-weight: 1000;
+    width:100%;
+    border-bottom: 3px solid black;
+    
+}
+.main-release-body {
+    padding:15px;
+}
+.contact-h1 {
+    text-align: center;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    font-weight: 1000;
+}
+.profile-image {
+    color: black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    margin-top: 45px;
+    text-align: center;
+    padding: auto;
+}
+.contact-header {
+    text-align: center; 
+    color: black;
+    margin-top: 5px;
+}
+.multi-column-container {
+    display: flex;
+    border-radius: 0%;
+    padding: 30px;
+    
+}
+.three-column-container {
+    width: calc(100% / 3-20px);
+    text-align: center;
+    border: 5px solid black;
+}
+.hat-selections {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 20px;
+}
+.allhats {
+    /*float: left;*/
+    border-radius: 10px;
+    border: 3px solid black;
+    background-color: white;
+    /* 1. Ensures the image shrinks to fit the container */ 
+    max-width: 100%; 
+  /* 2. Prevents vertical distortion when the width changes */ 
+  height: auto; /*
+ 3. (Optional) For images that need to maintain strict aspect ratio within a fixed box */ 
+  display: block; 
+}
+.hat-selection-container {
+    margin: 100px auto;
+    width: 75%
+}
+
+.hat-selection-text p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: 1000;
+    border-style: solid;
+    border-radius: 10px;
+    border: 3px solid black;
+    background-color: white;
+}
+.hat-selection-logo {
+    text-align: center;
+    justify-content: center;
+    background: lightgreen;
+}
+.hat-selection-header {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5rem;
+    font-weight: 1000;
+}
+.coming-soon {
+    background-image: url(westernbackground3.jpg);
+    background-size: contain;
+   
+}
+.coming-soon-header {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: x-large;
+    font-weight: 1000;
+}
+.coming-soon-h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 1000;
+}
+.coming-soon-msg {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: x-large;
+    font-weight: 1000;
+    border-style: solid;
+    background-color: white;
+    margin: 10px;
+}
+.coming-soon-image {
+     color: black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    margin-top: 45px;
+    text-align: center;
+    padding: auto;
+    border-style: groove;
+    border-radius: 130px;
+}
+.contact-page {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: x-large;
+    font-weight: 1000;
+}
+.image-with-border {
+    border: 5px solid #000;
+    border-style: groove;
+    border-radius: 1295px;
+    border-color: rgb(55, 111, 211);
+    background-color: white;
+}
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    justify-content: center;
+    font-weight: 1000;
+}
